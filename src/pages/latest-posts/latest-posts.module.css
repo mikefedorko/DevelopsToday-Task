@@ -1,0 +1,37 @@
+.container {
+	display: flex;
+	flex-direction: column;
+
+	padding: 50px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.listContainer {
+	margin-top: 20px;
+	border: 1px solid #8b8b8b;
+	padding: 20px;
+	border-radius: 10px;
+	background: #fff;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.image > img {
+	width: 450px;
+	height: 315px;
+	border-radius: 3px;
+	margin-bottom: 25px;
+	margin-right: 35px;
+}
+
+.description > h2 {
+	text-transform: uppercase;
+}
+
+.description > span {
+	color: #8b8b8b;
+}
+
+.description > a:hover {
+	text-decoration: underline;
+}
